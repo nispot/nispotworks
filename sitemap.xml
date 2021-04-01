@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+ <url>
+    <loc>http://nispotworks.com/en/index.html</loc>
+    <priority>1.00</priority>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="es"
+               href="http://nispotworks.com/es/index.html"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="http://nispotworks.com/en/index.html"/>
+  </url>
+  <url>
+    <loc>http://nispotworks.com/es/blog</loc>
+    <priority>0.90</priority>
+  </url>
+</urlset>
