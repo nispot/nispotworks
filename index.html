@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NispotWorks</title> 
+
+    <script>
+        window.onload = function() {
+
+            var ln = window.navigator.language||navigator.browserLanguage;
+           
+            ln = ln.split(/-/)[0].toLowerCase();
+            console.log(ln);
+            if(ln == 'en'){
+
+            window.location.href = '/nispotworks/en/index.html';
+
+            }else if(ln == 'es'){ 
+
+            window.location.href = '/nispotworks/es/index.html'; 
+
+            }else{
+
+            window.location.href = '/nispotworks/en/index.html'; 
+
+            }
+
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
